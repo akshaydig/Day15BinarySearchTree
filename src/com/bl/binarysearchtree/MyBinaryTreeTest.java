@@ -16,6 +16,8 @@ public class MyBinaryTreeTest {
 		myBinaryTree.add(65);
 		myBinaryTree.add(63);
 		myBinaryTree.add(67);
+		boolean keyFound = myBinaryTree.search(63);
+		System.out.println("The node with key 63 is present : " + keyFound);
 		int size = myBinaryTree.getSize();
 		System.out.println("Size is :" + size);
 	}
